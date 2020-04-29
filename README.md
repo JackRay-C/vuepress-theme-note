@@ -5,17 +5,16 @@ A Vuepress Theme With Ant-Design-Vue.
 
 ### install theme
 
+You can install using package manager yarn or npm.
+
 ```sh
 yarn add -D vuepress-theme-note 
 ```
-
-或者
 
 ```sh
 npm install -D vuepress-theme-note
 ```
 
-推荐使用yarn进行包管理和依赖的安装。
 
 ### use theme
 
@@ -39,6 +38,6 @@ Run `vuepress dev docs` and open `http://localhost:8080/` in your browser to pre
 ![预览](https://github.com/JackRay-C/vuepress-theme-note/raw/master/03.png)
 
 
-## Configuration
 
-* 
+
+
