@@ -1,6 +1,6 @@
 {
     "name": "vuepress-theme-note",
-    "version": "1.1.0",
+    "version": "1.0.0",
     "description": "vuepress theme ",
     "main": "skeleton-entry.js",
     "repository": "git@github.com:JackRay-C/vuepress-theme-note.git",
@@ -8,7 +8,7 @@
     "license": "MIT",
     "private": false,
     "scripts": {
-        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
     },
     "husky": {
         "hooks": {
@@ -29,6 +29,7 @@
         "@vuepress/plugin-search": "^1.4.1",
         "autoprefixer": "^9.7.6",
         "conventional-changelog": "^3.1.18",
+        "conventional-changelog-cli": "^2.0.31",
         "cross-env": "^7.0.2",
         "cz-conventional-changelog": "^3.1.0",
         "cz-customizable": "^6.2.0",
