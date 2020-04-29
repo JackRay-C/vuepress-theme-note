@@ -1,6 +1,7 @@
 module.exports = {
     title: 'Vuepress Theme Note',
     description: '记录学习生涯的各种笔记！',
+    base: '/vuepress-theme-note/',
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }]
     ],
