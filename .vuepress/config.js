@@ -45,14 +45,26 @@ module.exports = {
         ],
         sidebar: {
             "/install/": [{
-                title: '上手指南', // 必要的
-                collapsable: false, // 可选的, 默认值是 true,
-                sidebarDepth: 1, // 可选的, 默认值是 1
-                children: [
-                    '',
-                    'CHANGELOG'
-                ]
-            }],
+                    title: '上手指南', // 必要的
+                    collapsable: false, // 可选的, 默认值是 true,
+                    sidebarDepth: 0, // 可选的, 默认值是 1
+                    children: [
+                        '',
+                        'CHANGELOG'
+                    ]
+                },
+                {
+                    title: '插件配置',
+                    collapsable: false,
+                    sidebarDepth: 0,
+                    children: [
+                        'mediumZoom',
+                        'lastUpdated',
+                        'nprogress',
+                        'search'
+                    ]
+                }
+            ],
         }
     },
 
