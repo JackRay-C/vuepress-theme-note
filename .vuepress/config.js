@@ -34,10 +34,10 @@ module.exports = {
         displayAllHeaders: true,
         activeHeaderLinks: false,
 
-        algolia: {
-            apiKey: '005d7d949bd2c403ee056670a5c60044',
-            indexName: ''
-        },
+        // algolia: {
+        //     apiKey: '005d7d949bd2c403ee056670a5c60044',
+        //     indexName: ''
+        // },
         nav: [
             { text: '指南', link: '/install/' },
             { text: '配置', link: '/config/' },
