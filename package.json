@@ -1,6 +1,6 @@
 {
     "name": "vuepress-theme-note",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "vuepress theme ",
     "main": "skeleton-entry.js",
     "repository": "git@github.com:JackRay-C/vuepress-theme-note.git",
@@ -10,7 +10,7 @@
     "scripts": {
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md",
         "release": "standard-version",
-        "alpha": "standard-version -- --prerelease alpha && git push --follow-tags origin master && npm publish --tag alpha"
+        "alpha": "standard-version -- --prerelease alpha && git push --follow-tags origin master"
     },
     "husky": {
         "hooks": {
