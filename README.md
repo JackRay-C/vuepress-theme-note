@@ -1,5 +1,5 @@
 # vuepress-theme-note
-A Vuepress Theme With Ant-Design-Vue.
+A Vuepress Theme For Notes.
 
 ## Quick Start 
 
