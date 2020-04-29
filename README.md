@@ -36,7 +36,7 @@ module.exports = {
 
 Run `vuepress dev docs` and open `http://localhost:8080/` in your browser to preview this theme.
 
-![预览](https://github.com/JackRay-C/vuepress-theme-note/blob/master/03.png)
+![预览](https://github.com/JackRay-C/vuepress-theme-note/raw/master/03.png)
 
 
 ## Configuration
