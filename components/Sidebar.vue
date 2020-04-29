@@ -14,8 +14,7 @@ export default {
   name: "Sidebar",
   components: {
     SidebarLinks,
-    NavLinks,
-    Animation
+    NavLinks
   },
   props: {
     items: {
