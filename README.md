@@ -36,6 +36,8 @@ module.exports = {
 
 Run `vuepress dev docs` and open `http://localhost:8080/` in your browser to preview this theme.
 
+![预览](./03.png)
+
 
 ## Configuration
 
