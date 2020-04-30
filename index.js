@@ -23,6 +23,7 @@ module.exports = (options, ctx) => {
                     .use("sass-loader")
                     .options({
                         sassOptions: {
+                            implementation: require('sass'),
                             includePaths: [path.join(__dirname, "./style/index.scss")],
                         },
                     })
@@ -32,6 +33,7 @@ module.exports = (options, ctx) => {
                     .use("sass-loader")
                     .options({
                         sassOptions: {
+                            implementation: require('sass'),
                             includePaths: [path.join(__dirname, "./style/index.scss")],
                         },
                     });
