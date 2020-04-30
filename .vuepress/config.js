@@ -51,7 +51,9 @@ module.exports = {
                     sidebarDepth: 0, // 可选的, 默认值是 1
                     children: [
                         '',
-                        'CHANGELOG'
+
+                        '怎样记笔记',
+                        'CHANGELOG',
                     ]
                 },
                 {
