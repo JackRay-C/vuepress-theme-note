@@ -19,7 +19,12 @@ module.exports = {
                 margin: 0,
                 background: 'rgba(0,0,0,.4)'
             }
+        },
+        '@vuepress/active-header-links': {
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor'
         }
+
     },
     themeConfig: {
         smoothScroll: true,
@@ -32,7 +37,7 @@ module.exports = {
 
 
         displayAllHeaders: true,
-        activeHeaderLinks: false,
+        activeHeaderLinks: true,
 
         // algolia: {
         //     apiKey: '005d7d949bd2c403ee056670a5c60044',
@@ -42,17 +47,19 @@ module.exports = {
             { text: '指南', link: '/install/' },
             { text: '配置', link: '/config/' },
             { text: '案例', link: '/example/' },
-
         ],
         sidebar: {
             "/install/": [{
                     title: '上手指南', // 必要的
-                    collapsable: false, // 可选的, 默认值是 true,
-                    sidebarDepth: 0, // 可选的, 默认值是 1
+                    collapsable: false, // 可选的, 默认值是 true,建议改为false
+                    sidebarDepth: 0, // 可选的, 默认值是 1，建议改为0
                     children: [
                         '',
-
+                        '扩展配置',
+                        '使用规范',
                         '怎样记笔记',
+                        '自由定制',
+                        '贡献指南',
                         'CHANGELOG',
                     ]
                 },
