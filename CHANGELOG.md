@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/JackRay-C/vuepress-theme-note/compare/v1.1.1...v1.1.2) (2020-04-30)
+
+
+### Bug Fixes
+
+* **package.json:** 修复dart-sass的错误 ([c78a90b](https://github.com/JackRay-C/vuepress-theme-note/commit/c78a90bf7a3c54cfec165284aad9b6109ce2f48c))
+
 ### [1.1.1](https://github.com/JackRay-C/vuepress-theme-note/compare/v1.1.0...v1.1.1) (2020-04-30)
 
 
