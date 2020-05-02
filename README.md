@@ -14,7 +14,7 @@ actions:
 
 features: 
 - title: SCSS 预处理器
-  details: 默认支持Stylus和Scss的样式，使用Sass的预处理器。
+  details: 从默认的styles样式更改为Sass的样式，使用Sass的预处理器，更快的编译速度。
 - title: Animated 动画支持
   details: 主题增加了对Animate 动画的支持，让交互更顺滑。
 - title: 功能增强优化
