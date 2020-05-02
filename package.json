@@ -11,7 +11,7 @@
         "skeleton": "cross-env NODE_ENV=development webpack --config webpack.skeleton.config.js",
         "dev": "vuepress dev .",
         "build": "vuepress build . && sh deploy.sh",
-        "push": "git add . && git commit -m 'docs' && git push origin master:docs && sh deploy.sh"
+        "push": "git add . && git commit -m 'docs' && git push origin master:docs"
     },
     "dependencies": {
         "vue": "^2.6.11",
