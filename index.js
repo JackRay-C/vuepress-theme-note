@@ -13,8 +13,7 @@ module.exports = (options, ctx) => {
             ).some((base) => themeConfig.locales(base.algolia));
         // 是否允许smooth scroll
         const enableSmoothScroll = themeConfig.smoothScroll === true;
-
-        console.log(ctx);
+        
         return {
             chainWebpack: (config) => {
                 config.module
